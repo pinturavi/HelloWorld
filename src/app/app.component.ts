@@ -10,8 +10,5 @@ export class AppComponent {
   name = 'Ravi';
 }
 
-export class HeroComponent {
-  address = 'bengaluru';
-  email = 'pintu541796@gmail.com';
-}
+
 
