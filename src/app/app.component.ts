@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Hello World App';
+  name = 'Ravi';
 }
+
+export class HeroComponent {
+  address = 'bengaluru';
+  email = 'pintu541796@gmail.com';
+}
+
