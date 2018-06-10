@@ -8,14 +8,13 @@ import {HEROES} from '../mock-heroes';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
+selectedHero : Hero;
 
-  //hero = 'pintu';
+heroes = HEROES;
 
-  heroes = HEROES;
-  hero : Hero = {
-    id : 1,
-    name : 'windstorm'
-  };
+onSelect(hero: Hero) {
+  this.selectedHero = hero;
+}
 
   constructor() { }
 
